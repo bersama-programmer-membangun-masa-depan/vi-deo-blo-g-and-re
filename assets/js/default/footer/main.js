@@ -19,9 +19,9 @@ $(function () {
                 bar += '<div class="col-6 col-sm-4 col-md-3">';
                     bar += '<h6 class="footer__title">Resources</h6>';
                     bar += '<ul class="footer__list">';
-                        bar += '<li><a href="#">About Us</a></li>';
+                        bar += '<li><a href="/m/about-us/">About Us</a></li>';
                         bar += '<li><a href="#">Pricing Plan</a></li>';
-                        bar += '<li><a href="#">Help</a></li>';
+                        bar += '<li><a href="/m/help/">Help</a></li>';
                         bar += '</ul>';
                 bar += '</div>';
                 bar += '<!-- footer list -->';
@@ -30,9 +30,9 @@ $(function () {
                 bar += '<div class="col-6 col-sm-4 col-md-3">';
                     bar += '<h6 class="footer__title">Legal</h6>';
                     bar += '<ul class="footer__list">';
-                        bar += '<li><a href="#">Terms of Use</a></li>';
-                        bar += '<li><a href="#">Privacy Policy</a></li>';
-                        bar += '<li><a href="#">Security</a></li>';
+                        bar += '<li><a href="/m/police/terms-of-use/">Terms of Use</a></li>';
+                        bar += '<li><a href="/m/police/privacy-police/">Privacy Policy</a></li>';
+                        bar += '<li><a href="/m/police/security/">Security</a></li>';
                         bar += '</ul>';
                 bar += '</div>';
                 bar += '<!-- footer list -->';
@@ -57,8 +57,8 @@ $(function () {
                         bar += '<small><a href="/" target="_blank">Copyright &copy; 2022 Video - Blog Andre</a></small>';
                         
                         bar += '<ul>';
-                            bar += '<li><a href="#">Terms of Use</a></li>';
-                            bar += '<li><a href="#">Privacy Policy</a></li>';
+                            bar += '<li><a href="/m/police/terms-of-use/">Terms of Use</a></li>';
+                            bar += '<li><a href="/m/police/privacy-police/">Privacy Policy</a></li>';
                         bar += '</ul>';
                     bar += '</div>';
                 bar += '</div>';
