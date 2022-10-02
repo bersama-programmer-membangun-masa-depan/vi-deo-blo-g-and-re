@@ -39,7 +39,7 @@ bar += '<!-- TUTUP --';
                                 bar += '<li class="header__nav-item">';
                                     bar += '<a href="/m/pricing/" class="header__nav-link">Pricing Plan</a>';
                                 bar += '</li>';
-
+bar += '<!-- TUTUP -->';
                                 bar += '<li class="header__nav-item">';
                                     bar += '<a href="/m/help/" class="header__nav-link">Help</a>';
                                 bar += '</li>';
@@ -66,12 +66,11 @@ bar += '<!-- TUTUP -->';
                                 bar += '</button>';
                             bar += '<!-- Search -->';
 
-bar += '<!-- TUTUP --';
-                                bar += '<a href="signin.html" class="header__sign-in">';
+                                bar += '<a href="auth/" class="header__sign-in">';
                                     bar += '<i class="icon ion-ios-log-in"></i>';
                                     bar += '<span>sign in</span>';
                                 bar += '</a>';
-bar += '<!-- TUTUP -->';
+
                             bar += '</div>';
                             bar += '<!-- header auth -->';
 
